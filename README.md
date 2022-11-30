@@ -1,7 +1,7 @@
 # Autoship-Chemicals
 Ok so here we go!
 This is an example of the code for the buttons. 
-Follow [these instructions](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/subscribe-step-1/) provided in the link below and you should be able to get the code that will look similar to this:
+Follow [these instructions](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/subscribe-step-1/) and you should be able to get the code that will look similar to this:
 ```
 <div id="paypal-button-container3">
 <script>
