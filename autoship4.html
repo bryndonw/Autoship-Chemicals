@@ -1,0 +1,29 @@
+<div class = "row" style = "max-width:1400px !important;" >
+ <div id = "fwssandMiner" style = "text-align:center;">  
+    <img src = "/wp-content/uploads/2021/01/PremiumPackage.png">
+    <h4>Premium Package</h4>
+    <p><b>FWSS Cartridge, Cleanse Weekly, Silver Ion Cartridge, &amp; Item of the Month</b></p>
+    <h5>$165.00</h5>
+    <p>Every 4 Months</p>
+<div id="paypal-button-container6">
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-2SD50568X3892734SMAAGBZA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container6');
+</script></div>
+
+ </div>
+</div>

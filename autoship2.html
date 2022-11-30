@@ -1,0 +1,32 @@
+<div class = "row" style = "max-width:1400px !important;" >
+ <div id = "fwssandMiner" style = "text-align:center;">  
+    <img src = "/wp-content/uploads/2021/01/FWSSandMineral.png">
+    <h2>FWSS &amp; Silver Ion Cartridge</h2>
+    <h3>Most Popular Option</h3>
+    <h4>$118.00</h4>
+    <p>Every 4 Months</p>
+
+
+<div id="paypal-button-container">
+<script src="https://www.paypal.com/sdk/js?client-id=AfgHMHYKxRmNAKixqxHm8ms8Jfsv0K-wskFAF0UD10XfR-OVU7A6RF-mutq6FmCyFbUXoCGBJFTdunne&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-9HV43710ND889170WL73TOVI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container');
+</script></div>
+
+ </div> 
+</div>
