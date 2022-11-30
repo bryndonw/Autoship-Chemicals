@@ -29,6 +29,9 @@ Follow [these instructions](https://developer.paypal.com/api/nvp-soap/paypal-pay
 ```
 
 You will probably have to update code for all of the buttons (3 buttons for each product). 
+
 The code for all of the buttons is located in General Blocks in WordPress. 
+
 There are 4 blocks, all labeled Autoship Chemicals # (example Autoship 1).
+
 The code will be located in the custom html section.
