@@ -1,0 +1,85 @@
+<div class = "row" style = "max-width:1400px !important;" >
+ <div class="large-4 medium-6 columns" style = "text-align:center;">  
+    <img src = "/wp-content/uploads/2021/01/FWSSCartridge.png">
+    <h4>FWSS Cartridge</h4>
+    <h5>$83.33</h5>
+    <p>Every 4 Months</p>
+<div id="paypal-button-container1">
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+         'plan_id': 'P-8LE21969SE7830903L73TSQY'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container1');
+</script></div>
+
+
+ </div>
+ <div class="large-4 medium-6 columns" style = "text-align:center;">
+    <img src = "/wp-content/uploads/2021/01/SpaMineralSanitizer.png">
+    <h4>Silver Ion Cartridge</h4>
+    <h5>$34.99</h5>
+    <p>Every 4 Months</p>
+<div id="paypal-button-container2">
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-05486995A82672637L73UQLQ'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container2');
+</script></div>
+
+   
+ </div>
+ <div class="large-4 medium-6 columns" style = "text-align:center;">
+    <img src = "/wp-content/uploads/2021/01/chlorine.png">
+    <h4>Chlorine</h4>
+    <h5>$25.50</h5>
+    <p>Every 3 Months</p>
+
+<div id="paypal-button-container3">
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-5LV1202761046713KL73TQJY'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container3');
+</script>
+</div>
+    
+
+ </div>
+</div>
